@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81260EEE26417C5500FB3AB4 /* tweets.json in Resources */ = {isa = PBXBuildFile; fileRef = 81260EED26417C5500FB3AB4 /* tweets.json */; };
 		817A043826412A7800C6C476 /* Twitter_CloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817A043726412A7800C6C476 /* Twitter_CloneApp.swift */; };
 		817A043A26412A7800C6C476 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817A043926412A7800C6C476 /* ContentView.swift */; };
 		817A043C26412A7900C6C476 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 817A043B26412A7900C6C476 /* Assets.xcassets */; };
 		817A043F26412A7900C6C476 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 817A043E26412A7900C6C476 /* Preview Assets.xcassets */; };
-		817A044726412C7300C6C476 /* tweets.json in Resources */ = {isa = PBXBuildFile; fileRef = 817A044626412C7300C6C476 /* tweets.json */; };
 		817A044926412D6C00C6C476 /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817A044826412D6C00C6C476 /* Tabs.swift */; };
 		817A044B26412F4F00C6C476 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817A044A26412F4F00C6C476 /* Tweet.swift */; };
 		817A044D2641300F00C6C476 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817A044C2641300F00C6C476 /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		81260EED26417C5500FB3AB4 /* tweets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = tweets.json; path = ../../../../Downloads/Resources/tweets.json; sourceTree = "<group>"; };
 		817A043426412A7800C6C476 /* Twitter Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Twitter Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		817A043726412A7800C6C476 /* Twitter_CloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twitter_CloneApp.swift; sourceTree = "<group>"; };
 		817A043926412A7800C6C476 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		817A043B26412A7900C6C476 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		817A043E26412A7900C6C476 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		817A044026412A7900C6C476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		817A044626412C7300C6C476 /* tweets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = tweets.json; path = ../../../Resources/tweets.json; sourceTree = "<group>"; };
 		817A044826412D6C00C6C476 /* Tabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
 		817A044A26412F4F00C6C476 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
 		817A044C2641300F00C6C476 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		817A043626412A7800C6C476 /* Twitter Clone */ = {
 			isa = PBXGroup;
 			children = (
-				817A044626412C7300C6C476 /* tweets.json */,
+				81260EED26417C5500FB3AB4 /* tweets.json */,
 				817A043726412A7800C6C476 /* Twitter_CloneApp.swift */,
 				817A043926412A7800C6C476 /* ContentView.swift */,
 				817A043B26412A7900C6C476 /* Assets.xcassets */,
@@ -139,8 +139,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				817A043F26412A7900C6C476 /* Preview Assets.xcassets in Resources */,
-				817A044726412C7300C6C476 /* tweets.json in Resources */,
 				817A043C26412A7900C6C476 /* Assets.xcassets in Resources */,
+				81260EEE26417C5500FB3AB4 /* tweets.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

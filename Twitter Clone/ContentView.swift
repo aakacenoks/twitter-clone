@@ -99,7 +99,6 @@ struct ContentView: View {
                                         Image("share")
                                     })
                                     .padding(.horizontal, 15)
-
                                 }
                             }
                             Spacer()
